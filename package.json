@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Urucas/trello-desktop-app/issues"
   },
-  "homepage": "https://github.com/Urucas/trello-desktop-app#readme"
+  "homepage": "https://github.com/Urucas/trello-desktop-app#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.30.3"
+  }
 }
