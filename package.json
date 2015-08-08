@@ -2,10 +2,11 @@
   "name": "trello-desktop-app",
   "version": "0.0.1",
   "description": "Desktop app for trello in electron.js",
-  "main": "./bin/cli",
+  "main": "electron.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./bin/cli"
   },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Urucas/trello-desktop-app.git"
