@@ -22,6 +22,6 @@ app.on('ready', function() {
     'min-height':670
   }
   mainWindow = new BrowserWindow(options);
-  mainWindow.loadUrl('http://trello.com');
-  //mainWindow.openDevTools();
+  mainWindow.loadUrl('file://' + __dirname + '/public/index.html');
+  // mainWindow.openDevTools();
 });
