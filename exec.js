@@ -18,5 +18,5 @@ module.exports = function() {
   else if(process.platform == "linux") { platform = platforms["linux"]; }
   else if(/^win/.test(process.platform)) { platform = platforms["win"]; }
   if(!platform) return console.log("Platform not supported");
-  spawn(__dirname+platform.prebuilt, [__dirname, "--verbose"], {stdio:'inherit'});
+  spawn(__dirname+platform.prebuilt, [__dirname], {stdio:'inherit'});
 }

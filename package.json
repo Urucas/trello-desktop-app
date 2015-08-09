@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Urucas/trello-desktop-app#readme",
   "dependencies": {
-    "electron-prebuilt": "^0.30.3"
+    "electron-prebuilt": "^0.30.3",
+    "jquery": "^2.1.4"
   }
 }

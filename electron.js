@@ -19,9 +19,11 @@ app.on('ready', function() {
     width: 1040, 
     height: 700, 
     'min-width':600, 
-    'min-height':670
+    'min-height':670,
+    'node-integration' : false // this is very important for jQuery to load
   }
   mainWindow = new BrowserWindow(options);
-  mainWindow.loadUrl('file://' + __dirname + '/public/index.html');
-  // mainWindow.openDevTools();
+  mainWindow.loadUrl('http://trello.com');
+  //mainWindow.openDevTools();
+
 });
