@@ -14,6 +14,6 @@ win32:
 	@electron-packager ./ Trello --platform=win32 --arch=all --version=0.30.4 --icon=./Icon.png --app-bundle-id=com.urucas.trello --app-version=$VERSION --out=./build
 
 all:
-	linux
-	osx
-	windows
+	make linux
+	make darwin
+	make win32
