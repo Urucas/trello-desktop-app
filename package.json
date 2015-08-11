@@ -4,7 +4,7 @@
   "description": "Desktop app for trello in electron.js",
   "main": "electron.js",
   "scripts": {
-    "start": "./bin/cli &"
+    "start": "./bin/cli"
   },
   "preferGlobal": true,
   "repository": {
