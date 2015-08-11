@@ -1,5 +1,5 @@
 # trello-desktop-app
-Desktop app for trello in electron.js
+Desktop app client for [trello](https://trello.com/)
 
 #Usage
 **Run**
